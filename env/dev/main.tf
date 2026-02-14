@@ -5,5 +5,10 @@ module "resource_group" {
  rgs = var.rgs
 
 }
+module "storage" {
+    source = "../../modules/storage"
+ stgs = var.stgs
+  
+}
 
 
