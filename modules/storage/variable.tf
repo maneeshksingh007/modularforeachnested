@@ -1,4 +1,3 @@
-# variable "stgs" {
+    variable "stgs" {}    
      
  
-# }
